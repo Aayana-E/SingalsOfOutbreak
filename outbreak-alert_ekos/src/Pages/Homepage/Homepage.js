@@ -212,7 +212,7 @@ function levelFromProb(p) {
   return "Low";
 }
 
-// ---------- main: HOME ONLY ----------
+
 export default function OutbreakDashboardHome() {
   const [region, setRegion] = useState("NY");
   const [pathogen, setPathogen] = useState("flu");

@@ -25,7 +25,7 @@ export default function Nav({
     {
       label: "OVERVIEW",
       items: [
-        { key: "dashboard", label: "Dashboard", icon: "▦" },
+        { key: "dashboard", label: "Dashboard", icon: "▦" }, //chart icon change later
         {
           key: "alerts",
           label: "Alerts",
