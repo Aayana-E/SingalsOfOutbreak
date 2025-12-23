@@ -1,0 +1,107 @@
+
+html,body,#root {
+  height: 100%;
+  margin: 0;
+}
+
+.pageRoot {
+  min-height: 100vh;
+  background: #f6f7f9;
+  padding: 24px 16px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.headerCard {
+  padding: 20px;
+}
+
+.headerTitle {
+  font-weight: 700;
+}
+
+.subtle {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.controlsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.filtersCardTitle {
+  font-weight: 700;
+}
+
+.filtersBlock {
+  margin-top: 18px;
+}
+
+.statusBox {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.kpiGrid {
+  margin-bottom: 16px;
+}
+
+.kpiValue {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.chartBox {
+  height: 260px;
+}
+
+.chartBoxTall {
+  height: 280px;
+}
+
+.alertItem {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.alertLeft {
+  min-width: 0;
+}
+
+.alertTags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.alertRight {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.footerNote {
+  display: block;
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.MuiDrawer-modal .MuiBackdrop-root {
+  background-color: transparent !important;
+  pointer-events: none; 
+}
